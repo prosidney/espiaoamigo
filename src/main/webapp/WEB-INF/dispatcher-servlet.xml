@@ -33,7 +33,7 @@
 	<!-- Desenvolvimento -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="driverClassName" value="org.postgresql.Driver" />
-		<property name="url" value="jdbc:postgresql://fflazfgwwtjzqw:yPRV1vTmOBfJXwzXHPwFmv4jPh@ec2-54-83-41-183.compute-1.amazonaws.com:5432/d4bi22b2iv47lq" />
+		<property name="url" value="jdbc:postgresql://yPRV1vTmOBfJXwzXHPwFmv4jPh@ec2-54-83-41-183.compute-1.amazonaws.com:5432/d4bi22b2iv47lq" />
 		<property name="username" value="fflazfgwwtjzqw" />
 		<property name="password" value="yPRV1vTmOBfJXwzXHPwFmv4jPh" />
 	</bean>
