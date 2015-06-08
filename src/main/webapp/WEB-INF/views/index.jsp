@@ -14,7 +14,12 @@
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
 <script>
 	function initialize() {
-	  var myLatlng = new google.maps.LatLng(-23.7585514,-46.5993181);
+	  var lat = '${location.lat}';
+	  var lng = '${location.lon}';
+	  
+	  //window.alert(lat + "," + lng);
+	  
+	  var myLatlng = new google.maps.LatLng(lat,lng);
 	  var mapOptions = {
 	    zoom: 18,
 	    center: myLatlng
