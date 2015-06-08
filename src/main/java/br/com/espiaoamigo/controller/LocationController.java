@@ -59,6 +59,8 @@ public class LocationController {
 		find.setLat(lat);
 		find.setLon(lng);
 		
+		locationDaoImpl.save(find);
+		
 		return find;
 	}
 }
