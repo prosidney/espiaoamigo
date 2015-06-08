@@ -33,8 +33,8 @@ public class LocationController {
 		}
 		
 		fistOne.setLastSeen(new Date());
-		fistOne.setLat("-23.7585514");
-		fistOne.setLon("-46.5993181");
+		fistOne.setLat("-15.7585514");
+		fistOne.setLon("-30.5993181");
 		fistOne.setObservation("Nothing important");
 		
 		locationDaoImpl.save(fistOne);
